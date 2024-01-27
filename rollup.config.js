@@ -1,7 +1,7 @@
 import resolve from '@rollup/plugin-node-resolve';
 import css from'rollup-plugin-css-only'
 export default {
-  input: './src/index.js',
+  input: './public/index.js',
   output: [
     {
       format: 'esm',
