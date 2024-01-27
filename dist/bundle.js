@@ -119729,7 +119729,7 @@ class IFCLoader extends Loader {
 
   //Object to store the size of the viewport
   const size = {
-    width: window.innerWidth,
+    width: window.c,
     height: window.innerHeight,
   };
 
@@ -119800,7 +119800,7 @@ class IFCLoader extends Loader {
   const input = document.getElementById("file-input");
   input.addEventListener(
     "change",
-    (changed) => {
+    changed => {
       const file = changed.target.files[0];
       var ifcURL = URL.createObjectURL(file);
       ifcLoader.load(

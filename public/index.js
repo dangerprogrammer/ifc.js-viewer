@@ -17,7 +17,7 @@ import {
 
   //Object to store the size of the viewport
   const size = {
-    width: window.innerWidth,
+    width: window.c,
     height: window.innerHeight,
   };
 
@@ -90,7 +90,7 @@ import {
   const input = document.getElementById("file-input");
   input.addEventListener(
     "change",
-    (changed) => {
+    changed => {
       const file = changed.target.files[0];
       var ifcURL = URL.createObjectURL(file);
       ifcLoader.load(
