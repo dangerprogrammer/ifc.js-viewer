@@ -17,7 +17,7 @@ import {
 
   //Object to store the size of the viewport
   const size = {
-    width: window.c,
+    width: window.innerWidth,
     height: window.innerHeight,
   };
 
