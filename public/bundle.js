@@ -119796,5 +119796,5 @@ class IFCLoader extends Loader {
 
   // Sets up the IFC loading
   const ifcLoader = new IFCLoader();
-  ifcLoader.ifcManager.setWasmPath("../wasm/");
+  ifcLoader.ifcManager.setWasmPath("https://ifc-js-viewer.vercel.app/wasm/");
   window.ifcLoader = ifcLoader;
