@@ -119798,3 +119798,4 @@ class IFCLoader extends Loader {
   const ifcLoader = new IFCLoader();
   ifcLoader.ifcManager.setWasmPath("../wasm/");
   window.ifcLoader = ifcLoader;
+  console.log(window.ifcLoader);
