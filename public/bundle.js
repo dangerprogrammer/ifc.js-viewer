@@ -119812,3 +119812,4 @@ class IFCLoader extends Loader {
             });
     },
     false
+	);
